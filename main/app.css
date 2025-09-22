@@ -3,6 +3,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
 /* PC */
+@media only screen and (max-width: 1400px) {
+  body {
+  margin: 0%;
+}
+.bar {
+  background: #161E72;
+  display: flex;
+  align-items: center; 
+  padding-top: 60px;
+}
+.nave {
+  background: #333;
+  color: white;
+  position: fixed;
+  left: -250px;
+  top: 0;
+  width: 200px;
+  height: 100%;
+  font-size: 25px;
+  font-family: 'Oswald';
+  font: bold;
+  font-palette: #000000;
+  color: #000;
+  text-decoration: none;
+  transition: left 0.4s ease;
+  display: flex;
+  flex-direction: column;
+}
+.nave a {
+  color: #000000;
+}
+.title {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: bold;
+  text-decoration: none;
+  font-size: 40px;
+}
+.txt {
+  text-decoration: none;
+}
+.mitem {
+  width: 70px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background: #131958;
+  margin: 10%;
+}
+.mitem:active {
+  background: #D4D4D4;
+}
+.open {
+  left: 0;
+}
+.close {
+  left: -250px;
+}
+.log {
+  
+}
+}
 @media only screen and (max-width: 990px) {
   body {
   margin: 0%;
@@ -20,7 +82,7 @@
   left: -250px;
   top: 0;
   width: 200px;
-  height: 38%;
+  height: 100%;
   font-size: 25px;
   font-family: 'Oswald';
   font: bold;
