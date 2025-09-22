@@ -1,0 +1,185 @@
+/* RESPONSIVE CSS  */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+@media only screen and (max-width: 990px) {
+  body {
+  margin: 0%;
+}
+.bar {
+  background: #161E72;
+  display: flex;
+  align-items: center; 
+  padding-top: 60px;
+}
+
+.nave {
+  background: #333;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 200px;
+  height: 38%;
+  font-size: 25px;
+  font-family: 'Oswald';
+  font: bold;
+  font-palette: #000000;
+  color: #000;
+  text-decoration: none;
+}
+.nave a {
+  color: #000000;
+}
+.title {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: bold;
+  text-decoration: none;
+}
+.txt {
+  text-decoration: none;
+}
+}
+
+
+
+/* TELEFONO */
+@media only screen and (max-width: 500px) {
+  body {
+  margin: 0%;
+}
+.bar {
+  background: #161E72;
+  display: flex;
+  align-items: center; 
+  padding-top: 60px;
+}
+.nave {
+  background: #333;
+  color: white;
+  position: fixed;
+  left: -250px;
+  top: 0;
+  width: 200px;
+  height: 100%;
+  font-size: 25px;
+  font-family: 'Oswald';
+  font: bold;
+  font-palette: #000000;
+  color: #000;
+  text-decoration: none;
+  transition: left 0.4s ease;
+}
+.nave a {
+  color: #000000;
+}
+.title {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: bold;
+  text-decoration: none;
+  font-size: 40px;
+}
+.txt {
+  text-decoration: none;
+}
+.mitem {
+  width: 70px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background: #131958;
+  margin: 10%;
+}
+.mitem:active {
+  background: #D4D4D4;
+}
+.open {
+  left: 0;
+}
+}
+/*
+@media only screen and (max-width: 990px) {
+  body {
+  margin: 0%;
+}
+.bar {
+  background: #161E72;
+  display: flex;
+  align-items: center; 
+  padding-top: 60px;
+}
+
+.nave {
+  background: #333;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 200px;
+  height: 38%;
+  font-size: 25px;
+  font-family: 'Oswald';
+  font: bold;
+  font-palette: #000000;
+  color: #000;
+  text-decoration: none;
+}
+.nave a {
+  color: #000000;
+}
+.title {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: bold;
+  text-decoration: none;
+}
+.txt {
+  text-decoration: none;
+}
+}
+
+
+*/
+
+
+
+/*body {
+  font-family: Arial;
+  margin: 0%;
+}
+.bar {
+  background: #161E72;
+  display: flex;
+  align-items: center; 
+  padding-top: 60px;
+}
+
+.nave {
+  background: #333;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 250px;
+  height: 10%;
+}
+
+.mitem {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  background: #333;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 4px;
+  z-index: 1000;
+  transition: background 0.2s;
+}
+.mitem:active {
+  background: #161E72;
+}
+.mitem:hover {
+  background: #444;
+}*/
